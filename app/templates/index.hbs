@@ -1,0 +1,13 @@
+<h1>Ember {{version}}</h1>
+
+<h2>Rendering time: {{renderingTime}} ms</h2>
+
+<p>Ready for render: {{showComponent}}</p>
+
+<button {{action "toggleComponent"}}>Toggle Component</button>
+
+<br><br>
+
+{{#if showComponent}}
+    {{dummy-table data=model finished='finished'}}
+{{/if}}

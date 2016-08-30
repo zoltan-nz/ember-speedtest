@@ -1,0 +1,8 @@
+{
+  "name": "ember-112",
+  "dependencies": {
+    "ember": "~1.12.2",
+    "ember-cli-shims": "0.1.1",
+    "ember-qunit-notifications": "0.1.0"
+  }
+}
