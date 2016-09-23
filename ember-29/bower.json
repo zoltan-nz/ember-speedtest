@@ -1,11 +1,7 @@
 {
   "name": "ember-29",
   "dependencies": {
-    "ember": "alpha",
-    "ember-cli-shims": "0.1.1",
-    "ember-qunit-notifications": "0.1.0"
-  },
-  "resolutions": {
-    "ember": "alpha"
+    "ember": "^2.9.0-beta.4",
+    "ember-cli-shims": "0.1.3"
   }
 }

@@ -14,6 +14,6 @@ export default Ember.Component.extend({
   didInsertElement() {
     let duration = new Date() - this.get('time');
     console.log('Component inserted, duration:', duration);
-    this.sendAction('finished', duration);
+    this.get('finished')(duration);
   }
 });

@@ -13,14 +13,6 @@ export default Ember.Route.extend({
     return Array.from(Array(10000).keys()).map((number) => {
       return Dummy.create({content: {id: number}});
     });
-  },
-
-  actions: {
-
-    finished(time) {
-      this.controller.set('renderingTime', time);
-    }
-
   }
 
 });
